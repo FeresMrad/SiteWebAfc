@@ -4,7 +4,7 @@ Donate link: https://prestoplayer.com
 Tags: video, audio, youtube, vimeo, lms, elementor, learndash, beaver builder, lifterlms
 Requires at least: 5.6
 Tested up to: 6.2
-Stable tag: 1.14.0
+Stable tag: 1.14.1
 Requires PHP: 7.3
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
@@ -149,6 +149,9 @@ It is also important to point out that BunnyNet has a $1 per month minimum.
 
 
 == Changelog ==
+
+= 1.14.1 =
+* Fix: When a new media item added to media hub it replaces existing media from Elementor widget.
 
 = 1.14.0 - May 1, 2023 =
 * Improvement: Compatibility with Full Site Editing.

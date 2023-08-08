@@ -7,7 +7,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2023-05-01T16:03:18+00:00\n"
+"POT-Creation-Date: 2023-07-28T15:37:08+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "X-Generator: WP-CLI 2.6.0\n"
 
@@ -535,7 +535,7 @@ msgstr ""
 #: admin/blocks/blocks/bunny/popup/stream/collections/CreateCollection.js:76
 #: admin/settings/pages/parts/Webhooks/NewWebhook.js:122
 #: Integrations/BeaverBuilder/ReusableVideoModule/Module.php:114
-#: Integrations/Elementor/ReusableVideoWidget.php:147
+#: Integrations/Elementor/ReusableVideoWidget.php:150
 msgid "Create"
 msgstr ""
 
@@ -2722,7 +2722,7 @@ msgid "Select from the media hub."
 msgstr ""
 
 #: Integrations/Divi/includes/modules/PrestoPlayer/PrestoPlayer.php:34
-#: Integrations/Elementor/ReusableVideoWidget.php:156
+#: Integrations/Elementor/ReusableVideoWidget.php:159
 msgid "Dynamic URL Override"
 msgstr ""
 
@@ -2738,11 +2738,11 @@ msgstr ""
 msgid "Edit Media"
 msgstr ""
 
-#: Integrations/Elementor/ReusableVideoWidget.php:143
+#: Integrations/Elementor/ReusableVideoWidget.php:146
 msgid "Create Media"
 msgstr ""
 
-#: Integrations/Elementor/ReusableVideoWidget.php:166
+#: Integrations/Elementor/ReusableVideoWidget.php:169
 msgid "Enter a url override"
 msgstr ""
 

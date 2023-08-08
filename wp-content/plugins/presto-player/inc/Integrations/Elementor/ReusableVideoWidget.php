@@ -123,7 +123,7 @@ class ReusableVideoWidget extends Widget_Base
 				'label' => __('Media Hub Item', 'presto-player'),
 				'type' => \Elementor\Controls_Manager::SELECT2,
 				'options' => $options,
-				'default' => @[array_keys($options)[0]]
+				'default' => '-1'
 			]
 		);
 
@@ -134,6 +134,9 @@ class ReusableVideoWidget extends Widget_Base
 				'type' => \Elementor\Controls_Manager::BUTTON,
 				'text' => __('Edit', 'plugin-domain'),
 				'event' => 'presto:video:edit',
+				'condition'   => array(
+					'video_block!' => '-1',
+				),
 			]
 		);
 
@@ -195,7 +198,9 @@ class ReusableVideoWidget extends Widget_Base
 		global $load_presto_js;
 		$load_presto_js = true;
 		$settings = $this->get_settings_for_display();
-		$video = new ReusableVideo($settings['video_block']);
+		// For backward compatibility.
+		$video_url = ( '-1' !== $settings['video_block'] ) ? $settings['video_block'] : '0';
+		$video = new ReusableVideo( $video_url );
 		$overrides = [];
 		if ($settings['url_override']) {
 			$overrides['src'] = $settings['url_override'];
