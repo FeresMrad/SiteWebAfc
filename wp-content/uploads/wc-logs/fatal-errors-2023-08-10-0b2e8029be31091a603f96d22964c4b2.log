@@ -1,0 +1,48 @@
+2023-08-10T09:13:05+00:00 CRITICAL Uncaught TypeError: Carbon\Carbon::setLastErrors(): Argument #1 ($lastErrors) must be of type array, bool given, called in C:\xampp\htdocs\wordpress\wp-content\plugins\wedevs-project-manager\vendor\nesbot\carbon\src\Carbon\Carbon.php on line 559 and defined in C:\xampp\htdocs\wordpress\wp-content\plugins\wedevs-project-manager\vendor\nesbot\carbon\src\Carbon\Carbon.php:927
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-content\plugins\wedevs-project-manager\vendor\nesbot\carbon\src\Carbon\Carbon.php(559): Carbon\Carbon::setLastErrors(false)
+#1 C:\xampp\htdocs\wordpress\wp-content\plugins\wedevs-project-manager\vendor\nesbot\carbon\src\Carbon\Carbon.php(606): Carbon\Carbon->__construct(NULL, NULL)
+#2 C:\xampp\htdocs\wordpress\wp-content\plugins\wedevs-project-manager\db\seeds\RoleTableSeeder.php(29): Carbon\Carbon::now()
+#3 C:\xampp\htdocs\wordpress\wp-content\plugins\wedevs-project-manager\core\Installer\Installer.php(11): RoleTableSeeder->run()
+#4 C:\xampp\htdocs\wordpress\wp-content\plugins\wedevs-project-manager\core\WP\Frontend.php(63): WeDevs\PM\Core\Installer\Installer->do_install()
+#5 C:\xampp\htdocs\wordpress\wp-content\plugins\wedevs-project-manager\core\WP\Frontend.php(58): WeDevs\PM\Core\WP\Frontend->run_install()
+#6 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(308): WeDevs\PM\Core\WP\Frontend->install(false)
+#7 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#8 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\wordpress\wp-admin\includes\plugin.php(691): do_action('activate_wedevs...', false)
+#10 C:\xampp\htdocs\wordpress\wp-admin\plugins.php(58): activate_plugin('wedevs-project-...', 'http://localhos...', false)
+#11 {main}
+  thrown dans C:\xampp\htdocs\wordpress\wp-content\plugins\wedevs-project-manager\vendor\nesbot\carbon\src\Carbon\Carbon.php à la ligne 927
+
+2023-08-10T09:13:10+00:00 CRITICAL Uncaught TypeError: Carbon\Carbon::setLastErrors(): Argument #1 ($lastErrors) must be of type array, bool given, called in C:\xampp\htdocs\wordpress\wp-content\plugins\wedevs-project-manager\vendor\nesbot\carbon\src\Carbon\Carbon.php on line 559 and defined in C:\xampp\htdocs\wordpress\wp-content\plugins\wedevs-project-manager\vendor\nesbot\carbon\src\Carbon\Carbon.php:927
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-content\plugins\wedevs-project-manager\vendor\nesbot\carbon\src\Carbon\Carbon.php(559): Carbon\Carbon::setLastErrors(false)
+#1 C:\xampp\htdocs\wordpress\wp-content\plugins\wedevs-project-manager\vendor\nesbot\carbon\src\Carbon\Carbon.php(606): Carbon\Carbon->__construct(NULL, NULL)
+#2 C:\xampp\htdocs\wordpress\wp-content\plugins\wedevs-project-manager\db\seeds\RoleTableSeeder.php(29): Carbon\Carbon::now()
+#3 C:\xampp\htdocs\wordpress\wp-content\plugins\wedevs-project-manager\core\Installer\Installer.php(11): RoleTableSeeder->run()
+#4 C:\xampp\htdocs\wordpress\wp-content\plugins\wedevs-project-manager\core\WP\Frontend.php(63): WeDevs\PM\Core\Installer\Installer->do_install()
+#5 C:\xampp\htdocs\wordpress\wp-content\plugins\wedevs-project-manager\core\WP\Frontend.php(58): WeDevs\PM\Core\WP\Frontend->run_install()
+#6 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(308): WeDevs\PM\Core\WP\Frontend->install('')
+#7 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#8 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\wordpress\wp-admin\plugins.php(194): do_action('activate_wedevs...')
+#10 {main}
+  thrown dans C:\xampp\htdocs\wordpress\wp-content\plugins\wedevs-project-manager\vendor\nesbot\carbon\src\Carbon\Carbon.php à la ligne 927
+
+2023-08-10T09:13:10+00:00 CRITICAL Uncaught TypeError: Carbon\Carbon::setLastErrors(): Argument #1 ($lastErrors) must be of type array, bool given, called in C:\xampp\htdocs\wordpress\wp-content\plugins\wedevs-project-manager\vendor\nesbot\carbon\src\Carbon\Carbon.php on line 559 and defined in C:\xampp\htdocs\wordpress\wp-content\plugins\wedevs-project-manager\vendor\nesbot\carbon\src\Carbon\Carbon.php:927
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-content\plugins\wedevs-project-manager\vendor\nesbot\carbon\src\Carbon\Carbon.php(559): Carbon\Carbon::setLastErrors(false)
+#1 C:\xampp\htdocs\wordpress\wp-content\plugins\wedevs-project-manager\vendor\nesbot\carbon\src\Carbon\Carbon.php(606): Carbon\Carbon->__construct(NULL, NULL)
+#2 C:\xampp\htdocs\wordpress\wp-content\plugins\wedevs-project-manager\db\seeds\RoleTableSeeder.php(29): Carbon\Carbon::now()
+#3 C:\xampp\htdocs\wordpress\wp-content\plugins\wedevs-project-manager\core\Installer\Installer.php(11): RoleTableSeeder->run()
+#4 C:\xampp\htdocs\wordpress\wp-content\plugins\wedevs-project-manager\core\WP\Frontend.php(63): WeDevs\PM\Core\Installer\Installer->do_install()
+#5 C:\xampp\htdocs\wordpress\wp-content\plugins\wedevs-project-manager\core\WP\Frontend.php(58): WeDevs\PM\Core\WP\Frontend->run_install()
+#6 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(308): WeDevs\PM\Core\WP\Frontend->install('')
+#7 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#8 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\wordpress\wp-admin\plugins.php(194): do_action('activate_wedevs...')
+#10 {main}
+  thrown dans C:\xampp\htdocs\wordpress\wp-content\plugins\wedevs-project-manager\vendor\nesbot\carbon\src\Carbon\Carbon.php à la ligne 927
+
+2023-08-10T15:45:38+00:00 CRITICAL Maximum execution time of 120 seconds exceeded dans C:\xampp\htdocs\wordpress\wp-admin\includes\template.php à la ligne 12
+
